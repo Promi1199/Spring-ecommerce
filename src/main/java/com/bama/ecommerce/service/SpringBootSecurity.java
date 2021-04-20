@@ -36,5 +36,4 @@ public class SpringBootSecurity extends WebSecurityConfigurerAdapter{
 	public BCryptPasswordEncoder getEncoder() {
 		return new BCryptPasswordEncoder();
 	}
-	
 }
